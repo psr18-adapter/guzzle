@@ -1,0 +1,32 @@
+{
+    "name": "psr18-adapter/guzzle",
+    "autoload": {
+        "psr-4": {
+            "Psr18Adapter\\Guzzle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Psr18Adapter\\Guzzle\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "keywords": ["guzzle", "guzzlehttp", "psr-18"],
+    "license": "MIT",
+    "homepage": "https://github.com/psr18-adapter/guzzle",
+    "require": {
+        "php": ">=7.3",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "guzzlehttp/guzzle": ">=6.5.0",
+        "guzzlehttp/psr7": ">=1.7.0"
+    },
+    "require-dev": {
+        "ext-json": "*",
+        "nyholm/psr7": "^1.4",
+        "php-http/mock-client": "^1.5",
+        "phpunit/phpunit": ">=8.0"
+    }
+}
