@@ -7,7 +7,7 @@ That's needed in case some of your libraries still depend on Guzzle, but you mov
 
 For example, I'm using PSR-18 client having plugins and profiler integration and wish to have 
 consistent experience and reuse same stack, instead of having to search for guzzle middleware 
-alternatives and so on search just because these libraries still didn't move on.
+alternatives and so on just because these libraries still didn't move on.
 
 ## Install
 
