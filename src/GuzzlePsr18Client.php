@@ -24,10 +24,10 @@ class GuzzlePsr18Client implements ClientInterface
     private $requestFactory;
 
     public function __construct(
-        PsrClientInterface $stripeClient,
+        PsrClientInterface $client,
         RequestFactoryInterface $requestFactory
     ) {
-        $this->client = $stripeClient;
+        $this->client = $client;
         $this->requestFactory = $requestFactory;
     }
 
