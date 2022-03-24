@@ -51,6 +51,7 @@ class GuzzlePsr18Client implements ClientInterface
         return $this->sendAsync($this->requestFactory->createRequest($method, $uri), $options);
     }
 
+    /** @return mixed */
     public function getConfig($option = null)
     {
         return $option ? null : [];
